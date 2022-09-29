@@ -86,6 +86,11 @@ img {
 @media (max-width: 28.75em) {
     .nav {
         justify-content: center;
+        background: linear-gradient(
+            0deg,
+            var(--gray2) 0%,
+            var(--orange) 90%
+        );
     }
 
     .nav-list {
